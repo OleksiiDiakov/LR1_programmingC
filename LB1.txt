@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>   // для log, sin, cos, pow, M_PI
+
+using namespace std;
+
+int main() {
+    double a, b;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
+
+    // чисельник
+    double numerator = 11.21 * (1 + log(b / a));
+
+    // знаменник
+    double denominator = 1 - sin((a / b) * M_PI) * cos((a / b) * M_PI);
+
+    // обчислення дробу
+    double fraction = numerator / denominator;
+
+    // піднесення до степеня (2/3)
+    double result = pow(fraction, 2.0 / 3.0);
+
+    cout << "Result = " << result << endl;
+
+    return 0;
+}
