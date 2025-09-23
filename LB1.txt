@@ -1,4 +1,4 @@
-7 варіант
+//7 варіант
 
 #include <iostream>
 #include <cmath>   // для log, sin, cos, pow, M_PI
@@ -29,7 +29,7 @@ int main() {
     return 0;
 }
 
-7 варіант + 5 = 12 варіант
+//7 варіант + 5 = 12 варіант
 
 #include <iostream>
 #include <cmath>   // для sin, cos, pow, M_PI
@@ -38,9 +38,9 @@ using namespace std;
 
 int main() {
     double a, b;
-    cout << "Введіть a: ";
+    cout << "Input a: ";
     cin >> a;
-    cout << "Введіть b: ";
+    cout << "Input b: ";
     cin >> b;
 
     // вираз усередині дужок
@@ -50,7 +50,7 @@ int main() {
     // піднесення до степеня (2/3)
     double result = pow(inside, 2.0 / 3.0);
 
-    cout << "Результат = " << result << endl;
+    cout << "Result = " << result << endl;
 
     return 0;
 }
